@@ -10,6 +10,7 @@ const NotFound = () => {
           alt='not-found-thumbnail'
           className='img-fluid'
         />
+        <h2>Page Not Found!</h2>
       </figure>
     </>
   );
