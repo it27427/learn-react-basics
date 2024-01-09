@@ -1,4 +1,4 @@
-import NotFound from '../components/NotFound';
+import NotFound from '../../components/ErrorComponent/NotFound';
 
 const ErrorPage = () => {
   return (

@@ -1,6 +1,6 @@
-import DashboardHeader from '../components/DashboardHeader';
-import DashboardFooter from '../components/DashboardFooter';
-import DashboardSidebar from '../components/DashboardSidebar';
+import DashboardHeader from '../components/AdminComponents/DashboardHeader';
+import DashboardFooter from '../components/AdminComponents/DashboardFooter';
+import DashboardSidebar from '../components/AdminComponents/DashboardSidebar';
 
 const AdminLayout = ({ children }) => {
   return (

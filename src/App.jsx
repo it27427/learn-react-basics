@@ -1,21 +1,21 @@
 import { Route, Routes } from 'react-router-dom';
 
-// PAGES
-import HomePage from './pages/HomePage';
-import BlogPage from './pages/BlogPage';
-import CartPage from './pages/CartPage';
-import WishPage from './pages/WishPage';
-import ContactPage from './pages/ContactPage';
+// CLIENT-PAGES
+import HomePage from './pages/Clients/HomePage';
+import BlogPage from './pages/Clients/BlogPage';
+import CartPage from './pages/Clients/CartPage';
+import WishPage from './pages/Clients/WishPage';
+import ContactPage from './pages/Clients/ContactPage';
 
 // SIGNIN-PAGES
-import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
+import LoginPage from './pages/Auth/LoginPage';
+import RegisterPage from './pages/Auth/RegisterPage';
 
 // ADMIN-PAGES
-import Dashboard from './pages/Dashboard';
+import Dashboard from './pages/Admin/Dashboard';
 
 // ERROR-PAGE
-import ErrorPage from './pages/ErrorPage';
+import ErrorPage from './pages/Error/ErrorPage';
 
 // LAYOUTS
 import Layout from './layouts/Layout';

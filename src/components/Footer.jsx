@@ -1,4 +1,4 @@
-import CopyRight from './CopyRight';
+import CopyRight from './Copyrights/CopyRight';
 
 const Footer = () => {
   return (
