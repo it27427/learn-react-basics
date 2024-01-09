@@ -1,16 +1,25 @@
 import { Route, Routes } from 'react-router-dom';
 
-// Components
+// PAGES
 import HomePage from './pages/HomePage';
 import BlogPage from './pages/BlogPage';
 import CartPage from './pages/CartPage';
 import WishPage from './pages/WishPage';
 import ContactPage from './pages/ContactPage';
+
+// SIGNIN-PAGES
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+
+// ADMIN-PAGES
 import Dashboard from './pages/Dashboard';
+
+// ERROR-PAGE
 import ErrorPage from './pages/ErrorPage';
 
-// Layouts
+// LAYOUTS
 import Layout from './layouts/Layout';
+import SignInLayout from './layouts/SignInLayout';
 import AdminLayout from './layouts/AdminLayout';
 import ErrorLayout from './layouts/ErrorLayout';
 
@@ -59,8 +68,26 @@ const App = () => {
         }
       />
 
-      {/* ADMIN-ROUTES */}
+      {/* SIGNIN-ROUTES */}
+      <Route
+        path='/login'
+        element={
+          <SignInLayout>
+            <LoginPage />
+          </SignInLayout>
+        }
+      />
 
+      <Route
+        path='/register'
+        element={
+          <SignInLayout>
+            <RegisterPage />
+          </SignInLayout>
+        }
+      />
+
+      {/* ADMIN-ROUTES */}
       <Route
         path='/dashboard'
         element={

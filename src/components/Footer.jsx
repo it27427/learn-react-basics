@@ -2,7 +2,7 @@ import CopyRight from './CopyRight';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='footer'>
       <div className='container'>
         <div>
           <h2>Footer</h2>

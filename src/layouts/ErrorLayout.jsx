@@ -1,7 +1,7 @@
 const ErrorLayout = ({ children }) => {
   return (
     <>
-      <main>{children}</main>
+      <main className='error-main'>{children}</main>
     </>
   );
 };

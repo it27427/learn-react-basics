@@ -7,7 +7,7 @@ const AdminLayout = ({ children }) => {
     <>
       <DashboardHeader />
       <DashboardSidebar />
-      <main>{children}</main>
+      <main className='dashboard-main'>{children}</main>
       <DashboardFooter />
     </>
   );
