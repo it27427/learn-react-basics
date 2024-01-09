@@ -3,7 +3,7 @@ import React from 'react';
 const DashboardHeader = () => {
   return (
     <header className='dashboard-header'>
-      <h1>DashboardHeader</h1>
+      <h1>Dashboard Header</h1>
     </header>
   );
 };

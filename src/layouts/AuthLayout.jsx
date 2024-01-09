@@ -1,4 +1,4 @@
-const SignInLayout = ({ children }) => {
+const AuthLayout = ({ children }) => {
   return (
     <>
       <main className='signin-main'>{children}</main>
@@ -6,4 +6,4 @@ const SignInLayout = ({ children }) => {
   );
 };
 
-export default SignInLayout;
+export default AuthLayout;

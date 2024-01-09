@@ -5,7 +5,7 @@ const DashboardFooter = () => {
     <footer className='dashboard-footer'>
       <div className='container'>
         <div>
-          <h2>Footer</h2>
+          <h2>Dashboard Footer</h2>
         </div>
       </div>
 

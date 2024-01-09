@@ -3,7 +3,7 @@ import React from 'react';
 const DashboardSidebar = () => {
   return (
     <aside className='dashboard-sidebar'>
-      <h1>DashboardSidebar</h1>
+      <h1>Dashboard Sidebar</h1>
     </aside>
   );
 };

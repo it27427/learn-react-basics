@@ -19,7 +19,7 @@ import ErrorPage from './pages/Error/ErrorPage';
 
 // LAYOUTS
 import Layout from './layouts/Layout';
-import SignInLayout from './layouts/SignInLayout';
+import AuthLayout from './layouts/AuthLayout';
 import AdminLayout from './layouts/AdminLayout';
 import ErrorLayout from './layouts/ErrorLayout';
 
@@ -72,18 +72,18 @@ const App = () => {
       <Route
         path='/login'
         element={
-          <SignInLayout>
+          <AuthLayout>
             <LoginPage />
-          </SignInLayout>
+          </AuthLayout>
         }
       />
 
       <Route
         path='/register'
         element={
-          <SignInLayout>
+          <AuthLayout>
             <RegisterPage />
-          </SignInLayout>
+          </AuthLayout>
         }
       />
 
