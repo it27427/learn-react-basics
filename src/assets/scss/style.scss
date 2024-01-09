@@ -110,9 +110,9 @@ h5 {
   font-family: inherit;
 }
 
-::selection {
-  // @include setBgColor($textprimary, $white);
-}
+// ::selection {
+//   @include setBgColor($textprimary, $white);
+// }
 
 body {
   // @include setBgColor($white, $textsecondary);
