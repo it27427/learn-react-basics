@@ -5,6 +5,7 @@ import HomePage from './pages/Clients/HomePage';
 import BlogPage from './pages/Clients/BlogPage';
 import CartPage from './pages/Clients/CartPage';
 import WishPage from './pages/Clients/WishPage';
+import ShopPage from './pages/Clients/ShopPage';
 import ContactPage from './pages/Clients/ContactPage';
 
 // SIGNIN-PAGES
@@ -40,6 +41,14 @@ const App = () => {
         element={
           <Layout>
             <BlogPage />
+          </Layout>
+        }
+      />
+      <Route
+        path='/shop'
+        element={
+          <Layout>
+            <ShopPage />
           </Layout>
         }
       />
