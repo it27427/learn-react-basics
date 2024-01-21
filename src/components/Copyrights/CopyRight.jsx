@@ -1,6 +1,8 @@
 const CopyRight = () => {
   return (
-    <p className='copytext'>&copy; {new Date().getFullYear()} iT-Commerce</p>
+    <p className='copytext'>
+      &copy; {new Date().getFullYear()} Dokan Bondhu. All rights reserved.
+    </p>
   );
 };
 

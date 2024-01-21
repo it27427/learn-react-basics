@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
-import 'bootstrap/dist/css/bootstrap.css';
 
+// IMPORT-BOOTSTRAP
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.js';
+
+// IMPORT CUSTOM-STYLES
 import './assets/scss/style.scss';
+
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,40 +1,36 @@
 import { Link } from 'react-router-dom';
+import BrandLogo from './BrandLogo';
+import MainList from './MainList';
+import IconList from './IconList';
+import MobileMenu from './MobileMenu';
 
 const Header = () => {
   return (
     <header className='header'>
       <div className='container'>
         <nav className='d-flex align-items-center justify-content-between'>
-          <Link to='/'>
-            <img src='/logo.svg' alt='brand-logo' />
-          </Link>
+          {/* MOBILE-MENU */}
+          <div className='d-lg-none d-block'>
+            <MobileMenu />
+          </div>
 
-          <ul className='nav'>
-            <li className='nav-item'>
-              <Link
-                to='/shop'
-                className={({ isActive }) => (isActive ? 'active' : '')}
-              >
-                Shop
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link to='/blog' className='nav-link'>
-                Blog
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link to='/cart' className='nav-link'>
-                Cart
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link to='/contact' className='nav-link'>
-                Contact
-              </Link>
-            </li>
-          </ul>
+          {/* BRAND-LOGO */}
+          <BrandLogo />
+
+          {/* ICON-LIST */}
+          <IconList />
         </nav>
+      </div>
+
+      {/* DESKTOP-LIST */}
+      <div className='d-none d-lg-block'>
+        <hr className='m-0' />
+
+        <div className='mymainlist'>
+          <div className='container'>
+            <MainList />
+          </div>
+        </div>
       </div>
     </header>
   );
