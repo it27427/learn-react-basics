@@ -6,7 +6,7 @@ import MobileMenu from './MobileMenu';
 
 const Header = () => {
   return (
-    <header className='header'>
+    <header className='header sticky-top'>
       <div className='container'>
         <nav className='d-flex align-items-center justify-content-between'>
           {/* MOBILE-MENU */}
